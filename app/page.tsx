@@ -11,12 +11,11 @@ export default function IndexPage() {
       <h1 className="text-3xl font-extrabold sm:text-5xl">
         Calynder is great
         <strong className="font-extrabold text-red-700 sm:block">
-          Increase Conversion.
+          for tracking your life.
         </strong>
       </h1>
       <p className="mt-4 sm:text-xl/relaxed">
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nesciunt illo
-        tenetur fuga ducimus numquam ea!
+        Science says our brains can handle roughly 8 bits of information at a time before it begins to lose track of things. Calynder was designed with that in mind - you can track all of your thoughts and have reminders sent wherever and whenever you need it. Give your brain a break.
       </p>
       <div className="mt-8 flex flex-wrap justify-center gap-4">
         <a
@@ -31,6 +30,7 @@ export default function IndexPage() {
         >
           Learn More
         </a>
+        <a className="">Already have an account? <a className="text-red-700, on-hover: underline"  href="/sign-in">Sign in</a> </a>
       </div>
     </div>
   </div>

@@ -5,7 +5,7 @@ import { buttonVariants } from "@/components/ui/button"
 
 export default function IndexPage() {
   return (
-<section className="bg-gray-50">
+<section className="bg-gray-50 dark:bg-black">
   <div className="mx-auto max-w-screen-xl px-4 py-32 lg:flex lg:h-screen lg:items-center">
     <div className="mx-auto max-w-xl text-center">
       <h1 className="text-3xl font-extrabold sm:text-5xl">
@@ -30,7 +30,8 @@ export default function IndexPage() {
         >
           Learn More
         </a>
-        <a className="">Already have an account? <a className="text-red-700, on-hover: underline"  href="/sign-in">Sign in</a> </a>
+        <br></br>
+        <a className="">Already have an account?</a> <a className="text-red-700, on-hover: underline"  href="/sign-in">Sign in</a> 
       </div>
     </div>
   </div>

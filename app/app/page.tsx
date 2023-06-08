@@ -1,31 +1,27 @@
-"use client"
-
 import React from 'react';
+import prisma from '@/lib/prisma'
+import Cal from "./cal";
 
-import Link from "next/link"
-
-import { siteConfig } from "@/config/site"
-import { buttonVariants } from "@/components/ui/button"
-
-import { DayPicker } from 'react-day-picker';
-import 'react-day-picker/dist/style.css';
-
-
-import { format } from 'date-fns';
-
-export default function IndexPage() {
-  const [selected, setSelected] = React.useState<Date>();
-
-  let footer = <p>Please pick a day.</p>;
-  if (selected) {
-    footer = <p>You picked {format(selected, 'PP')}.</p>;
-  }
+export default async function IndexPage() {
+  
+  const events = await prisma.event.findMany();
+  console.log(events);
   return (
-    <DayPicker
-      mode="single"
-      selected={selected}
-      onSelect={setSelected}
-      footer={footer}
-    />
+    <>
+    <div> 
+      {
+      events.map(event => (
+        <>
+
+        <div> {event.eventName }</div>
+        <div> {event.description }</div>
+        <div> {event.date.toDateString()}</div>
+        
+        </>
+      ))
+      }
+    </div>
+    <Cal/>
+    </>
   );
 }

@@ -1,5 +1,6 @@
 import React from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 import { siteConfig } from "@/config/site"
 import { buttonVariants } from "@/components/ui/button"
@@ -17,10 +18,13 @@ export default function Page() {
           </div>
           <div className="mt-8 grid grid-cols-1 gap-8 lg:grid-cols-2 lg:gap-16">
             <div className="relative h-64 overflow-hidden sm:h-80 lg:h-full">
-              <img
-                alt="Party"
+              <Image
+                
                 src="https://i.pinimg.com/736x/87/a9/c5/87a9c51bee476df3b5ef608179f60f5f--project-management-healthy-tips.jpg"
                 className="absolute inset-0 h-full w-full object-cover"
+                alt="Party"
+                width={800}
+                height={500}
               />
             </div>
             <div className="lg:py-16">

@@ -37,7 +37,7 @@ export default function Contact() {
                     Name
                 </label>
                 <input
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                    className="w-full rounded-lg border-gray-200 bg-gray-200 p-3 text-sm"
                     placeholder="Name"
                     type="text"
                     id="name"
@@ -49,7 +49,7 @@ export default function Contact() {
                     Email
                     </label>
                     <input
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                    className="w-full rounded-lg bg-gray-200 border-gray-200 p-3 text-sm"
                     placeholder="Email address"
                     type="email"
                     id="email"
@@ -60,7 +60,7 @@ export default function Contact() {
                     Phone
                     </label>
                     <input
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                    className="w-full rounded-lg bg-gray-200 border-gray-200 p-3 text-sm"
                     placeholder="Phone Number"
                     type="tel"
                     id="phone"
@@ -73,7 +73,7 @@ export default function Contact() {
                     Message
                 </label>
                 <textarea
-                    className="w-full rounded-lg border-gray-200 p-3 text-sm"
+                    className="w-full rounded-lg bg-gray-200 border-gray-200 p-3 text-sm"
                     placeholder="What are your thoughts on the site?"
                     rows={8}
                     id="message"
@@ -85,7 +85,7 @@ export default function Contact() {
                     type="submit"
                     className="inline-block w-full rounded-lg bg-black px-5 py-3 font-medium text-white sm:w-auto"
                 >
-                    Send Enquiry
+                    Send Feedback
                 </button>
                 </div>
             </form>

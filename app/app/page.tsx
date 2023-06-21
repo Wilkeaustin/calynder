@@ -1,6 +1,7 @@
 import React from 'react';
 import prisma from '@/lib/prisma'
 import Cal from "./cal";
+import Form from '../form';
 
 export default async function IndexPage() {
   
@@ -9,7 +10,7 @@ export default async function IndexPage() {
   return (
     <>
     <div> 
-      {
+      {/* {
       events.map(event => (
         <>
 
@@ -19,9 +20,13 @@ export default async function IndexPage() {
         
         </>
       ))
-      }
+      } */}
     </div>
-    <Cal/>
+    <div className='app'>
+      <Cal/>
+    <Form/>
+    </div>
+    
     </>
   );
 }

@@ -89,7 +89,7 @@ export default function GetStarted() {
                       type="text"
                       id="FirstName"
                       name="first_name"
-                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                      className="mt-1 w-full rounded-md border-gray-200 bg-gray-100 bg-red-50 text-lg text-gray-700 shadow-sm"
                     />
                   </div>
                   <div className="col-span-6 sm:col-span-3">
@@ -103,7 +103,7 @@ export default function GetStarted() {
                       type="text"
                       id="LastName"
                       name="last_name"
-                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                      className="mt-1 w-full rounded-md border-gray-200 bg-gray-100 bg-red-50 text-lg text-gray-700 shadow-sm"
                     />
                   </div>
                   <div className="col-span-6">
@@ -117,7 +117,7 @@ export default function GetStarted() {
                       type="email"
                       id="Email"
                       name="email"
-                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                      className="mt-1 w-full rounded-md border-gray-200 bg-gray-100 bg-red-50 text-lg text-gray-700 shadow-sm"
                     />
                   </div>
                   <div className="col-span-6 sm:col-span-3">
@@ -131,7 +131,7 @@ export default function GetStarted() {
                       type="password"
                       id="Password"
                       name="password"
-                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                      className="mt-1 w-full rounded-md border-gray-200 bg-red-50 text-lg text-gray-700 shadow-sm"
                     />
                   </div>
                   <div className="col-span-6 sm:col-span-3">
@@ -145,7 +145,7 @@ export default function GetStarted() {
                       type="password"
                       id="PasswordConfirmation"
                       name="password_confirmation"
-                      className="mt-1 w-full rounded-md border-gray-200 bg-white text-sm text-gray-700 shadow-sm"
+                      className="mt-1 w-full rounded-md border-gray-200 hover bg-red-50 text-lg text-gray-700 shadow-sm"
                     />
                   </div>
                   <div className="col-span-6">
@@ -176,7 +176,7 @@ export default function GetStarted() {
               </p> */}
                   </div>
                   <div className="col-span-6 sm:flex sm:items-center sm:gap-4">
-                    <button className="inline-block shrink-0 rounded-md border border-blue-600 bg-blue-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
+                    <button className="inline-block shrink-0 rounded-md border border-gray-600 bg-red-600 px-12 py-3 text-sm font-medium text-white transition hover:bg-transparent hover:text-blue-600 focus:outline-none focus:ring active:text-blue-500">
                       Create an account
                     </button>
                   </div>
